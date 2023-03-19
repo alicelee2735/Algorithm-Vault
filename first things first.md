@@ -12,7 +12,8 @@ int gcd(int a,int b){
     return a+b;
 }
 
-```		
+```
+
 最小公倍数
 `long long lcm = a*b/gcd(a,b); `
 直接使用gcd函数，要开long long
