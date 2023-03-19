@@ -1,5 +1,5 @@
 最大公约数
-int gcd(int a,int b){
+`int gcd(int a,int b){
     while(a>0&&b>0){
         if(a>b){
             a = a%b;
@@ -10,13 +10,13 @@ int gcd(int a,int b){
     }
     return a+b;
 }
-
+`
 最小公倍数
-long long lcm = a*b/gcd(a,b); 
+`long long lcm = a*b/gcd(a,b); `
 直接使用gcd函数，要开long long
 
 查找子串
-#include<bits/stdc++.h>
+`#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
@@ -27,12 +27,13 @@ int main()
     unsigned int c = s1.find(s3);
     cout << c << endl;
      
-}
+}`
 
 memset初始化数组，所有数设0
-memset(a,0,sizeof(a));
+`memset(a,0,sizeof(a));`
 
 数组里求最大值，最小值
+`
 /*
 	*max_element(begin,end)
 	求最大成员 
@@ -49,9 +50,10 @@ int main(){
 	for(int i=0;i<n;i++)cin>>a[i];
 	cout << *max_element(a,a+n);
 } 
-
+`
 swap交换两数位置
 （是iostream自带的）
+`
 #include<iostream>  
 using namespace std;
 int main(){
@@ -59,11 +61,11 @@ int main(){
     cin>>a>>b;
     swap(a,b);
     cout<<a<<" "<<b;
-} 
+} `
 
 sort函数
 从小到大排序，加了cmp就是从大到小
-#include<algorithm>
+`#include<algorithm>
 #include<iostream>
 using namespace std;
 int a[15],n;
@@ -79,10 +81,10 @@ int main(){
     for(int i=0;i<n;i++)
         cout<<a[i]<<" ";
     return 0;
-}
+}`
 
 max,min函数
-#include<iostream>
+`#include<iostream>
 using namespace std;
 int a,b;
 int main(){
@@ -90,10 +92,10 @@ int main(){
     cout<<max(a,b)<<endl;//最大值
     cout<<min(a,b);//最小值
     return 0;
-}
+}`
 
 冒泡排序！！
-#include<algorithm>
+`#include<algorithm>
 #include<iostream>
 using namespace std;
 int n,a[100005];
@@ -108,4 +110,4 @@ int main(){
     for(int i=0;i<n;i++)
         cout<<a[i]<<" ";
     return 0;
-}
+}`
