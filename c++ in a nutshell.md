@@ -1,4 +1,4 @@
-# H1 最大公约数
+# 最大公约数
 ```cpp
 int gcd(int a,int b){
     while(a>0&&b>0){
@@ -14,11 +14,11 @@ int gcd(int a,int b){
 
 ```
 
-# H1 最小公倍数
+# 最小公倍数
 `long long lcm = a*b/gcd(a,b); `
 直接使用gcd函数，要开long long
 
-# H1 查找子串
+# 查找子串
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
@@ -34,10 +34,10 @@ int main()
 }
 ```
 
-# H1 memset初始化数组，所有数设0
+# memset初始化数组，所有数设0
 `memset(a,0,sizeof(a));`
 
-# H1 数组里求最大值，最小值
+# 数组里求最大值，最小值
 
 ```cpp
 /*
@@ -58,7 +58,7 @@ int main(){
 } 
 ```
 
-# H1 swap交换两数位置
+# swap交换两数位置
 （是iostream自带的）
 ```cpp
 #include<iostream>  
@@ -71,7 +71,7 @@ int main(){
 } 
 ```
 
-# H1 sort函数
+# sort函数
 从小到大排序，加了cmp就是从大到小
 ```cpp
 #include<algorithm>
@@ -93,7 +93,7 @@ int main(){
 }
 ```
 
-# H1 max,min函数
+# max,min函数
 ```cpp
 #include<iostream>
 using namespace std;
@@ -106,7 +106,7 @@ int main(){
 }
 ```
 
-# H1 冒泡排序！！
+# 冒泡排序！！
 ```cpp
 #include<algorithm>
 #include<iostream>
