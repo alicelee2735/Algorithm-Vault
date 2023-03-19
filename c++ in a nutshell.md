@@ -1,3 +1,8 @@
+基本上都是数学函数部分，我死了。前面部分为应用类型，后面有排序，stl，结构体，图论函数哈哈哈哈哈
+反正都是要背的玩意儿
+还有一些自带的好用的函数都在这里。
+
+note to myself later: idk, re-organize them into groups?? 
 # 最大公约数
 ```cpp
 int gcd(int a,int b){
@@ -125,3 +130,15 @@ int main(){
     return 0;
 }
 ```
+
+# 结构体
+没完全懂，待会儿更新多点。。。主要是还没找到，找完之后还要练。
+```cpp
+struct Student {    // 学生结构体
+    string name;    // 学生姓名
+    int grade;      // 学生分数
+    Student();  // 无参数构造函数
+    Student(string name, int grade) : name(name), grade(grade) {};  // 有参数构造函数
+};
+``` 
+
