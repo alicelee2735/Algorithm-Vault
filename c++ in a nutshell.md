@@ -111,6 +111,53 @@ int main(){
 }
 ```
 
+# isalpha
+isalpha()函数用来判断一个字符是否为字母，如果是字母则返回非零，否则返回零。
+```cpp
+cout << isalpha('d') << endl;
+cout << isalpha('4') << endl; 
+
+--------结果如下--------
+1
+0
+```
+
+# isalnum
+```cpp
+cout << isalnum('d') << endl;
+cout << isalnum('4') << endl;
+cout << isalnum('.') << endl;
+
+-----------结果如下--------------
+1
+1
+0
+```
+
+# islower
+```cpp
+cout << islower('d') << endl;
+cout << islower('4') << endl;
+cout << islower('A') << endl;
+
+------------结果如下----------
+1
+0
+0
+```
+
+# isupper
+```cpp
+cout << isupper('a') << endl;
+cout << isupper('2') << endl;
+cout << isupper('A') << endl;
+
+------------结果如下-----------
+0
+0
+1
+```
+
 # 冒泡排序！！
 ```cpp
 #include<algorithm>
