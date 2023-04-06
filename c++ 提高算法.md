@@ -56,3 +56,4 @@ depth[i] 表示深度（层数）
 	预处理O(nlogn)   
 	查询O(logn)  
 
+# 二分图
