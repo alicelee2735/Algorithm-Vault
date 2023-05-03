@@ -190,7 +190,7 @@ struct Student {    // 学生结构体
 ``` 
 
 # 快速排序
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 const int N=10000;
