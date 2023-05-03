@@ -189,3 +189,33 @@ struct Student {    // 学生结构体
 };
 ``` 
 
+# 快速排序
+```
+#include<bits/stdc++.h>
+using namespace std;
+const int N=10000;
+int a[N],n;
+void quick_sort(int l,int r)
+{
+    if(l>=r) return ;
+    int k=a[(l+r+1)/2],i=l-1,j=r+1;
+    while(i<j)
+    {
+        do i++; while(a[i]<k);
+        do j--; while(a[j]>k);
+        if(i<j) swap(a[i],a[j]);
+    }
+    quick_sort(l,i-1);
+    quick_sort(i,r);
+}
+int main(){
+    cin>>n;
+    for(int i=0;i<n;i++)cin>>a[i];
+    quick_sort(0,n-1);
+    for(int i=0;i<n;i++)cout<<a[i]<<" ";
+    return 0;
+} 
+```
+
+
+
