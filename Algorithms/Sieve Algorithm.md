@@ -2,7 +2,7 @@
 
 
 ## What is Sieve of Eratosthenes
-Sive of Eratosthenes is an ancient algorithm that finds all prime numbers in a given range. It is also used to find all divisors of a number with a faster time complexity.
+Sieve of Eratosthenes is an ancient algorithm that finds all prime numbers in a given range. It is also used to find all divisors of a number with a faster time complexity.
 
 ## Sieve Algorithm
 1. The algorithm starts by generating a boolean array ```Boolarray``` to store whether ```i``` is a prime number or not.
